@@ -41,6 +41,9 @@ nest g controller computer
 
 Our disk and cpu modules require some power to work correctly. After adding a `supplyPower(watts: number)` method to the power service, we can inject the power service into the cpu and disk services.
 
+![alt text](modulo-unico.png)
+![alt text](modulos-diferentes.png)
+
 #### 1. Export the power service
 
 We need to export the power service from the power module so that we can use it in other modules.
